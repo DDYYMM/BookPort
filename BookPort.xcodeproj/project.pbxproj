@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3A3DF8C326885A7BE1BDCBD /* Pods_BookPort.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800169BB413D2E718138948C /* Pods_BookPort.framework */; };
+		C93A214E1DCFA9A3006D4498 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93A214D1DCFA9A3006D4498 /* User.swift */; };
+		C95BA2A81DCE1581001F10FF /* BookKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95BA2A71DCE1581001F10FF /* BookKeeper.swift */; };
+		C95BA2AA1DCF6C14001F10FF /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95BA2A91DCF6C14001F10FF /* Book.swift */; };
+		C96FE0591D91CAE4005686AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96FE0581D91CAE4005686AC /* AppDelegate.swift */; };
+		C96FE05E1D91CAE4005686AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96FE05C1D91CAE4005686AC /* Main.storyboard */; };
+		C96FE0611D91CAE4005686AC /* BookPort.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C96FE05F1D91CAE4005686AC /* BookPort.xcdatamodeld */; };
+		C96FE0631D91CAE4005686AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96FE0621D91CAE4005686AC /* Assets.xcassets */; };
+		C96FE0661D91CAE4005686AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96FE0641D91CAE4005686AC /* LaunchScreen.storyboard */; };
+		C97F23091DD0339E001B27FF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F23071DD0339E001B27FF /* ChatViewController.swift */; };
+		C97F230A1DD0339E001B27FF /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F23081DD0339E001B27FF /* ChatViewController.xib */; };
+		C97F23151DD03764001B27FF /* CreateGroupChannelUserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F230D1DD03764001B27FF /* CreateGroupChannelUserListViewController.swift */; };
+		C97F23161DD03764001B27FF /* CreateGroupChannelUserListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F230E1DD03764001B27FF /* CreateGroupChannelUserListViewController.xib */; };
+		C97F23171DD03764001B27FF /* GroupChannelChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F230F1DD03764001B27FF /* GroupChannelChattingViewController.swift */; };
+		C97F23181DD03764001B27FF /* GroupChannelChattingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F23101DD03764001B27FF /* GroupChannelChattingViewController.xib */; };
+		C97F23191DD03764001B27FF /* MemberListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F23111DD03764001B27FF /* MemberListViewController.swift */; };
+		C97F231A1DD03764001B27FF /* MemberListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F23121DD03764001B27FF /* MemberListViewController.xib */; };
+		C97F23251DD03787001B27FF /* CreateGroupChannelUserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F231B1DD03787001B27FF /* CreateGroupChannelUserListTableViewCell.swift */; };
+		C97F23261DD03787001B27FF /* CreateGroupChannelUserListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F231C1DD03787001B27FF /* CreateGroupChannelUserListTableViewCell.xib */; };
+		C97F23271DD03787001B27FF /* GroupChannelListEditableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F231D1DD03787001B27FF /* GroupChannelListEditableTableViewCell.swift */; };
+		C97F23281DD03787001B27FF /* GroupChannelListEditableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F231E1DD03787001B27FF /* GroupChannelListEditableTableViewCell.xib */; };
+		C97F23291DD03787001B27FF /* GroupChannelListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F231F1DD03787001B27FF /* GroupChannelListTableViewCell.swift */; };
+		C97F232A1DD03787001B27FF /* GroupChannelListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F23201DD03787001B27FF /* GroupChannelListTableViewCell.xib */; };
+		C97F232B1DD03787001B27FF /* MemberListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F23211DD03787001B27FF /* MemberListTableViewCell.swift */; };
+		C97F232C1DD03787001B27FF /* MemberListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F23221DD03787001B27FF /* MemberListTableViewCell.xib */; };
+		C97F232D1DD03787001B27FF /* SelectedUserListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F23231DD03787001B27FF /* SelectedUserListCollectionViewCell.swift */; };
+		C97F232E1DD03787001B27FF /* SelectedUserListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F23241DD03787001B27FF /* SelectedUserListCollectionViewCell.xib */; };
+		C97F23361DD03B70001B27FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F23351DD03B70001B27FF /* Constants.swift */; };
+		C97F234D1DD04058001B27FF /* IncomingUserMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F233C1DD04058001B27FF /* IncomingUserMessageTableViewCell.swift */; };
+		C97F234E1DD04058001B27FF /* IncomingUserMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F233D1DD04058001B27FF /* IncomingUserMessageTableViewCell.xib */; };
+		C97F234F1DD04058001B27FF /* NeutralMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F233E1DD04058001B27FF /* NeutralMessageTableViewCell.swift */; };
+		C97F23501DD04058001B27FF /* NeutralMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F233F1DD04058001B27FF /* NeutralMessageTableViewCell.xib */; };
+		C97F23551DD04058001B27FF /* OutgoingUserMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F23441DD04058001B27FF /* OutgoingUserMessageTableViewCell.swift */; };
+		C97F23561DD04058001B27FF /* OutgoingUserMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F23451DD04058001B27FF /* OutgoingUserMessageTableViewCell.xib */; };
+		C97F23571DD04058001B27FF /* MessageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F23461DD04058001B27FF /* MessageDelegate.swift */; };
+		C97F23581DD04058001B27FF /* ChattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F23471DD04058001B27FF /* ChattingView.swift */; };
+		C97F23591DD04058001B27FF /* ChattingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97F23481DD04058001B27FF /* ChattingView.xib */; };
+		C97F235C1DD040AB001B27FF /* ReusableViewFromXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F235B1DD040AB001B27FF /* ReusableViewFromXib.swift */; };
+		C99A400D1DB4EC4600CCFB6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A400C1DB4EC4600CCFB6B /* HomeViewController.swift */; };
+		C9A509961DCFB1C4007F46EB /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A509951DCFB1C4007F46EB /* BookCollectionViewCell.swift */; };
+		C9A509981DCFB79C007F46EB /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A509971DCFB79C007F46EB /* NotificationNames.swift */; };
+		C9A5099A1DCFC5E6007F46EB /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A509991DCFC5E6007F46EB /* BookDetailViewController.swift */; };
+		C9A5099C1DCFD096007F46EB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5099B1DCFD096007F46EB /* TabBarViewController.swift */; };
+		C9A5099E1DCFD950007F46EB /* ScanBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5099D1DCFD950007F46EB /* ScanBookViewController.swift */; };
+		C9F208161D9989FF005352A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9F208151D9989FF005352A6 /* GoogleService-Info.plist */; };
+		C9F2081B1D999A57005352A6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F2081A1D999A57005352A6 /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B11FA7B6EB62AEFDF1271A2 /* Pods_BookPortTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookPortTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C78DCC71846F21FCF6F2347 /* Pods-BookPort.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookPort.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookPort/Pods-BookPort.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD2F25ACD5A7C78C69E9A87 /* Pods-BookPort.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookPort.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookPort/Pods-BookPort.release.xcconfig"; sourceTree = "<group>"; };
+		800169BB413D2E718138948C /* Pods_BookPort.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookPort.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93A214D1DCFA9A3006D4498 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C95BA2A71DCE1581001F10FF /* BookKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookKeeper.swift; sourceTree = "<group>"; };
+		C95BA2A91DCF6C14001F10FF /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		C96FE0551D91CAE4005686AC /* BookPort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookPort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96FE0581D91CAE4005686AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C96FE05D1D91CAE4005686AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C96FE0601D91CAE4005686AC /* BookPort.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookPort.xcdatamodel; sourceTree = "<group>"; };
+		C96FE0621D91CAE4005686AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C96FE0651D91CAE4005686AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C96FE0671D91CAE4005686AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97F23071DD0339E001B27FF /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C97F23081DD0339E001B27FF /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		C97F230D1DD03764001B27FF /* CreateGroupChannelUserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupChannelUserListViewController.swift; sourceTree = "<group>"; };
+		C97F230E1DD03764001B27FF /* CreateGroupChannelUserListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateGroupChannelUserListViewController.xib; sourceTree = "<group>"; };
+		C97F230F1DD03764001B27FF /* GroupChannelChattingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelChattingViewController.swift; sourceTree = "<group>"; };
+		C97F23101DD03764001B27FF /* GroupChannelChattingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelChattingViewController.xib; sourceTree = "<group>"; };
+		C97F23111DD03764001B27FF /* MemberListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberListViewController.swift; sourceTree = "<group>"; };
+		C97F23121DD03764001B27FF /* MemberListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemberListViewController.xib; sourceTree = "<group>"; };
+		C97F231B1DD03787001B27FF /* CreateGroupChannelUserListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupChannelUserListTableViewCell.swift; sourceTree = "<group>"; };
+		C97F231C1DD03787001B27FF /* CreateGroupChannelUserListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateGroupChannelUserListTableViewCell.xib; sourceTree = "<group>"; };
+		C97F231D1DD03787001B27FF /* GroupChannelListEditableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelListEditableTableViewCell.swift; sourceTree = "<group>"; };
+		C97F231E1DD03787001B27FF /* GroupChannelListEditableTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelListEditableTableViewCell.xib; sourceTree = "<group>"; };
+		C97F231F1DD03787001B27FF /* GroupChannelListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelListTableViewCell.swift; sourceTree = "<group>"; };
+		C97F23201DD03787001B27FF /* GroupChannelListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelListTableViewCell.xib; sourceTree = "<group>"; };
+		C97F23211DD03787001B27FF /* MemberListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberListTableViewCell.swift; sourceTree = "<group>"; };
+		C97F23221DD03787001B27FF /* MemberListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemberListTableViewCell.xib; sourceTree = "<group>"; };
+		C97F23231DD03787001B27FF /* SelectedUserListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedUserListCollectionViewCell.swift; sourceTree = "<group>"; };
+		C97F23241DD03787001B27FF /* SelectedUserListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedUserListCollectionViewCell.xib; sourceTree = "<group>"; };
+		C97F23331DD03A2C001B27FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		C97F23341DD03A2C001B27FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C97F23351DD03B70001B27FF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C97F233C1DD04058001B27FF /* IncomingUserMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomingUserMessageTableViewCell.swift; sourceTree = "<group>"; };
+		C97F233D1DD04058001B27FF /* IncomingUserMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncomingUserMessageTableViewCell.xib; sourceTree = "<group>"; };
+		C97F233E1DD04058001B27FF /* NeutralMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeutralMessageTableViewCell.swift; sourceTree = "<group>"; };
+		C97F233F1DD04058001B27FF /* NeutralMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NeutralMessageTableViewCell.xib; sourceTree = "<group>"; };
+		C97F23441DD04058001B27FF /* OutgoingUserMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutgoingUserMessageTableViewCell.swift; sourceTree = "<group>"; };
+		C97F23451DD04058001B27FF /* OutgoingUserMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutgoingUserMessageTableViewCell.xib; sourceTree = "<group>"; };
+		C97F23461DD04058001B27FF /* MessageDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDelegate.swift; sourceTree = "<group>"; };
+		C97F23471DD04058001B27FF /* ChattingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingView.swift; sourceTree = "<group>"; };
+		C97F23481DD04058001B27FF /* ChattingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChattingView.xib; sourceTree = "<group>"; };
+		C97F235B1DD040AB001B27FF /* ReusableViewFromXib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableViewFromXib.swift; sourceTree = "<group>"; };
+		C99A400C1DB4EC4600CCFB6B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C9A509951DCFB1C4007F46EB /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9A509971DCFB79C007F46EB /* NotificationNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		C9A509991DCFC5E6007F46EB /* BookDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		C9A5099B1DCFD096007F46EB /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C9A5099D1DCFD950007F46EB /* ScanBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanBookViewController.swift; sourceTree = "<group>"; };
+		C9F208151D9989FF005352A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C9F208171D998C3F005352A6 /* BookPort-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookPort-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9F2081A1D999A57005352A6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C96FE0521D91CAE4005686AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A3DF8C326885A7BE1BDCBD /* Pods_BookPort.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A36442D717FFB4434DDE263 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C78DCC71846F21FCF6F2347 /* Pods-BookPort.debug.xcconfig */,
+				3BD2F25ACD5A7C78C69E9A87 /* Pods-BookPort.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63A2037A3E70C4BE537673C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				800169BB413D2E718138948C /* Pods_BookPort.framework */,
+				0B11FA7B6EB62AEFDF1271A2 /* Pods_BookPortTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C93A214F1DCFAADE006D4498 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				C97F23351DD03B70001B27FF /* Constants.swift */,
+				C9A509971DCFB79C007F46EB /* NotificationNames.swift */,
+				C96FE0671D91CAE4005686AC /* Info.plist */,
+				C9F208151D9989FF005352A6 /* GoogleService-Info.plist */,
+				C96FE0641D91CAE4005686AC /* LaunchScreen.storyboard */,
+				C96FE0621D91CAE4005686AC /* Assets.xcassets */,
+				C9F208171D998C3F005352A6 /* BookPort-Bridging-Header.h */,
+				C96FE0581D91CAE4005686AC /* AppDelegate.swift */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		C93A21501DCFAB23006D4498 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9A5099D1DCFD950007F46EB /* ScanBookViewController.swift */,
+				C9A5099B1DCFD096007F46EB /* TabBarViewController.swift */,
+				C9F2081A1D999A57005352A6 /* ProfileViewController.swift */,
+				C99A400C1DB4EC4600CCFB6B /* HomeViewController.swift */,
+				C9A509991DCFC5E6007F46EB /* BookDetailViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		C93A21511DCFAB2C006D4498 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C9A509951DCFB1C4007F46EB /* BookCollectionViewCell.swift */,
+				C96FE05C1D91CAE4005686AC /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		C95BA2A61DCE1568001F10FF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C96FE05F1D91CAE4005686AC /* BookPort.xcdatamodeld */,
+				C95BA2A71DCE1581001F10FF /* BookKeeper.swift */,
+				C95BA2A91DCF6C14001F10FF /* Book.swift */,
+				C93A214D1DCFA9A3006D4498 /* User.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		C96FE04C1D91CAE4005686AC = {
+			isa = PBXGroup;
+			children = (
+				C96FE0571D91CAE4005686AC /* BookPort */,
+				C96FE0561D91CAE4005686AC /* Products */,
+				1A36442D717FFB4434DDE263 /* Pods */,
+				63A2037A3E70C4BE537673C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C96FE0561D91CAE4005686AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C96FE0551D91CAE4005686AC /* BookPort.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C96FE0571D91CAE4005686AC /* BookPort */ = {
+			isa = PBXGroup;
+			children = (
+				C97F23371DD0403C001B27FF /* chat */,
+				C95BA2A61DCE1568001F10FF /* model */,
+				C93A21501DCFAB23006D4498 /* controller */,
+				C93A21511DCFAB2C006D4498 /* view */,
+				C93A214F1DCFAADE006D4498 /* Supporting files */,
+			);
+			path = BookPort;
+			sourceTree = "<group>";
+		};
+		C97F23371DD0403C001B27FF /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				C97F235B1DD040AB001B27FF /* ReusableViewFromXib.swift */,
+				C97F23461DD04058001B27FF /* MessageDelegate.swift */,
+				C97F23471DD04058001B27FF /* ChattingView.swift */,
+				C97F23481DD04058001B27FF /* ChattingView.xib */,
+				C97F231B1DD03787001B27FF /* CreateGroupChannelUserListTableViewCell.swift */,
+				C97F231C1DD03787001B27FF /* CreateGroupChannelUserListTableViewCell.xib */,
+				C97F231D1DD03787001B27FF /* GroupChannelListEditableTableViewCell.swift */,
+				C97F231E1DD03787001B27FF /* GroupChannelListEditableTableViewCell.xib */,
+				C97F231F1DD03787001B27FF /* GroupChannelListTableViewCell.swift */,
+				C97F23201DD03787001B27FF /* GroupChannelListTableViewCell.xib */,
+				C97F23211DD03787001B27FF /* MemberListTableViewCell.swift */,
+				C97F23221DD03787001B27FF /* MemberListTableViewCell.xib */,
+				C97F23231DD03787001B27FF /* SelectedUserListCollectionViewCell.swift */,
+				C97F23241DD03787001B27FF /* SelectedUserListCollectionViewCell.xib */,
+				C97F233C1DD04058001B27FF /* IncomingUserMessageTableViewCell.swift */,
+				C97F233D1DD04058001B27FF /* IncomingUserMessageTableViewCell.xib */,
+				C97F233E1DD04058001B27FF /* NeutralMessageTableViewCell.swift */,
+				C97F233F1DD04058001B27FF /* NeutralMessageTableViewCell.xib */,
+				C97F23441DD04058001B27FF /* OutgoingUserMessageTableViewCell.swift */,
+				C97F23451DD04058001B27FF /* OutgoingUserMessageTableViewCell.xib */,
+				C97F230D1DD03764001B27FF /* CreateGroupChannelUserListViewController.swift */,
+				C97F230E1DD03764001B27FF /* CreateGroupChannelUserListViewController.xib */,
+				C97F230F1DD03764001B27FF /* GroupChannelChattingViewController.swift */,
+				C97F23101DD03764001B27FF /* GroupChannelChattingViewController.xib */,
+				C97F23111DD03764001B27FF /* MemberListViewController.swift */,
+				C97F23121DD03764001B27FF /* MemberListViewController.xib */,
+				C97F23071DD0339E001B27FF /* ChatViewController.swift */,
+				C97F23081DD0339E001B27FF /* ChatViewController.xib */,
+			);
+			name = chat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C96FE0541D91CAE4005686AC /* BookPort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96FE0751D91CAE4005686AC /* Build configuration list for PBXNativeTarget "BookPort" */;
+			buildPhases = (
+				73808FA831634C7467438939 /* [CP] Check Pods Manifest.lock */,
+				C96FE0511D91CAE4005686AC /* Sources */,
+				C96FE0521D91CAE4005686AC /* Frameworks */,
+				C96FE0531D91CAE4005686AC /* Resources */,
+				A06710A5BB2EBC2A724D4A62 /* [CP] Embed Pods Frameworks */,
+				205BFC0911500C298A00D663 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookPort;
+			productName = BookPort;
+			productReference = C96FE0551D91CAE4005686AC /* BookPort.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C96FE04D1D91CAE4005686AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Zhifu Ge";
+				TargetAttributes = {
+					C96FE0541D91CAE4005686AC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SQ7HKY55PM;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C96FE0501D91CAE4005686AC /* Build configuration list for PBXProject "BookPort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = C96FE04C1D91CAE4005686AC;
+			productRefGroup = C96FE0561D91CAE4005686AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C96FE0541D91CAE4005686AC /* BookPort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C96FE0531D91CAE4005686AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96FE0661D91CAE4005686AC /* LaunchScreen.storyboard in Resources */,
+				C97F23501DD04058001B27FF /* NeutralMessageTableViewCell.xib in Resources */,
+				C97F23161DD03764001B27FF /* CreateGroupChannelUserListViewController.xib in Resources */,
+				C97F23261DD03787001B27FF /* CreateGroupChannelUserListTableViewCell.xib in Resources */,
+				C97F234E1DD04058001B27FF /* IncomingUserMessageTableViewCell.xib in Resources */,
+				C97F23281DD03787001B27FF /* GroupChannelListEditableTableViewCell.xib in Resources */,
+				C97F232E1DD03787001B27FF /* SelectedUserListCollectionViewCell.xib in Resources */,
+				C9F208161D9989FF005352A6 /* GoogleService-Info.plist in Resources */,
+				C97F232A1DD03787001B27FF /* GroupChannelListTableViewCell.xib in Resources */,
+				C96FE0631D91CAE4005686AC /* Assets.xcassets in Resources */,
+				C97F231A1DD03764001B27FF /* MemberListViewController.xib in Resources */,
+				C97F23591DD04058001B27FF /* ChattingView.xib in Resources */,
+				C96FE05E1D91CAE4005686AC /* Main.storyboard in Resources */,
+				C97F23561DD04058001B27FF /* OutgoingUserMessageTableViewCell.xib in Resources */,
+				C97F232C1DD03787001B27FF /* MemberListTableViewCell.xib in Resources */,
+				C97F23181DD03764001B27FF /* GroupChannelChattingViewController.xib in Resources */,
+				C97F230A1DD0339E001B27FF /* ChatViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		205BFC0911500C298A00D663 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookPort/Pods-BookPort-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73808FA831634C7467438939 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A06710A5BB2EBC2A724D4A62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookPort/Pods-BookPort-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C96FE0511D91CAE4005686AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95BA2A81DCE1581001F10FF /* BookKeeper.swift in Sources */,
+				C97F234F1DD04058001B27FF /* NeutralMessageTableViewCell.swift in Sources */,
+				C99A400D1DB4EC4600CCFB6B /* HomeViewController.swift in Sources */,
+				C97F23291DD03787001B27FF /* GroupChannelListTableViewCell.swift in Sources */,
+				C97F23091DD0339E001B27FF /* ChatViewController.swift in Sources */,
+				C95BA2AA1DCF6C14001F10FF /* Book.swift in Sources */,
+				C97F23361DD03B70001B27FF /* Constants.swift in Sources */,
+				C9A509961DCFB1C4007F46EB /* BookCollectionViewCell.swift in Sources */,
+				C97F23191DD03764001B27FF /* MemberListViewController.swift in Sources */,
+				C97F232D1DD03787001B27FF /* SelectedUserListCollectionViewCell.swift in Sources */,
+				C9A5099C1DCFD096007F46EB /* TabBarViewController.swift in Sources */,
+				C9A5099A1DCFC5E6007F46EB /* BookDetailViewController.swift in Sources */,
+				C93A214E1DCFA9A3006D4498 /* User.swift in Sources */,
+				C97F234D1DD04058001B27FF /* IncomingUserMessageTableViewCell.swift in Sources */,
+				C97F23271DD03787001B27FF /* GroupChannelListEditableTableViewCell.swift in Sources */,
+				C96FE0591D91CAE4005686AC /* AppDelegate.swift in Sources */,
+				C97F23171DD03764001B27FF /* GroupChannelChattingViewController.swift in Sources */,
+				C97F23151DD03764001B27FF /* CreateGroupChannelUserListViewController.swift in Sources */,
+				C9A509981DCFB79C007F46EB /* NotificationNames.swift in Sources */,
+				C97F23251DD03787001B27FF /* CreateGroupChannelUserListTableViewCell.swift in Sources */,
+				C9A5099E1DCFD950007F46EB /* ScanBookViewController.swift in Sources */,
+				C97F23581DD04058001B27FF /* ChattingView.swift in Sources */,
+				C97F23571DD04058001B27FF /* MessageDelegate.swift in Sources */,
+				C97F23551DD04058001B27FF /* OutgoingUserMessageTableViewCell.swift in Sources */,
+				C97F232B1DD03787001B27FF /* MemberListTableViewCell.swift in Sources */,
+				C97F235C1DD040AB001B27FF /* ReusableViewFromXib.swift in Sources */,
+				C9F2081B1D999A57005352A6 /* ProfileViewController.swift in Sources */,
+				C96FE0611D91CAE4005686AC /* BookPort.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C96FE05C1D91CAE4005686AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96FE05D1D91CAE4005686AC /* Base */,
+				C97F23331DD03A2C001B27FF /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C96FE0641D91CAE4005686AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96FE0651D91CAE4005686AC /* Base */,
+				C97F23341DD03A2C001B27FF /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C96FE0731D91CAE4005686AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C96FE0741D91CAE4005686AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C96FE0761D91CAE4005686AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C78DCC71846F21FCF6F2347 /* Pods-BookPort.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SQ7HKY55PM;
+				INFOPLIST_FILE = BookPort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.zhifu.BookPort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookPort/BookPort-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C96FE0771D91CAE4005686AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD2F25ACD5A7C78C69E9A87 /* Pods-BookPort.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SQ7HKY55PM;
+				INFOPLIST_FILE = BookPort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.zhifu.BookPort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookPort/BookPort-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C96FE0501D91CAE4005686AC /* Build configuration list for PBXProject "BookPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96FE0731D91CAE4005686AC /* Debug */,
+				C96FE0741D91CAE4005686AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96FE0751D91CAE4005686AC /* Build configuration list for PBXNativeTarget "BookPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96FE0761D91CAE4005686AC /* Debug */,
+				C96FE0771D91CAE4005686AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C96FE05F1D91CAE4005686AC /* BookPort.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C96FE0601D91CAE4005686AC /* BookPort.xcdatamodel */,
+			);
+			currentVersion = C96FE0601D91CAE4005686AC /* BookPort.xcdatamodel */;
+			path = BookPort.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C96FE04D1D91CAE4005686AC /* Project object */;
+}

@@ -1,0 +1,48 @@
+
+/* Class = "UIButton"; normalTitle = "I want"; ObjectID = "106-Yx-e6U"; */
+"106-Yx-e6U.normalTitle" = "I want";
+
+/* Class = "UIButton"; normalTitle = "Requested"; ObjectID = "7SK-MG-Lz7"; */
+"7SK-MG-Lz7.normalTitle" = "Requested";
+
+/* Class = "UINavigationItem"; title = "Chat"; ObjectID = "8Yw-wb-aKK"; */
+"8Yw-wb-aKK.title" = "Chat";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "8iZ-1Y-f4P"; */
+"8iZ-1Y-f4P.title" = "Home";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "BK6-mE-WJu"; */
+"BK6-mE-WJu.text" = "Name";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "FaM-Af-ziR"; */
+"FaM-Af-ziR.text" = "Email";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Goy-aS-0Cs"; */
+"Goy-aS-0Cs.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "H42-5Z-peq"; */
+"H42-5Z-peq.title" = "Profile";
+
+/* Class = "UILabel"; text = "Getting location"; ObjectID = "NSN-74-tYc"; */
+"NSN-74-tYc.text" = "Getting location";
+
+/* Class = "UITabBarItem"; title = "Chat"; ObjectID = "RlL-Sf-WOr"; */
+"RlL-Sf-WOr.title" = "Chat";
+
+/* Class = "UINavigationItem"; title = "Bar Code Scan"; ObjectID = "SLG-FG-0Ta"; */
+"SLG-FG-0Ta.title" = "Bar Code Scan";
+
+/* Class = "UITabBarItem"; title = "Notification"; ObjectID = "XKI-0a-7wS"; */
+"XKI-0a-7wS.title" = "Notification";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "hd5-qi-Shb"; */
+"hd5-qi-Shb.text" = "Author";
+
+/* Class = "UIButton"; normalTitle = "I have"; ObjectID = "k1j-gC-qe7"; */
+"k1j-gC-qe7.normalTitle" = "I have";
+
+/* Class = "UINavigationItem"; title = "Books Around You"; ObjectID = "mfs-hO-9le"; */
+"mfs-hO-9le.title" = "Books Around You";
+
+/* Class = "UIViewController"; title = "Book Detail"; ObjectID = "sYg-aQ-Sfn"; */
+"sYg-aQ-Sfn.title" = "Book Detail";
